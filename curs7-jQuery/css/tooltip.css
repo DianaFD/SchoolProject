@@ -1,0 +1,27 @@
+.tooltip {
+    height:80px;
+    width:80px;
+}
+.tooltip .visible-icon {
+    background-image:url("../images/information-icon.png");
+    background-size: 80px 60px;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+}
+
+.show {
+    visibility:visible;
+}
+.hide {
+   visibility:hidden; 
+}
+
+.tooltip .info {
+    position:absolute;
+    background-color:lightgrey;
+    left:86px;
+    top:10px;
+    min-height:100px;
+    min-width:400px;
+}

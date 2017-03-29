@@ -1,0 +1,6 @@
+[11-Feb-2017 19:18:43 UTC] PHP Parse error:  syntax error, unexpected '$speed' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/curs13-PHP-OOP/_tema/Googlecar.php on line 15
+[11-Feb-2017 19:22:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/curs13-PHP-OOP/_tema/Googlecar.php on line 58
+[11-Feb-2017 20:30:58 UTC] PHP Parse error:  syntax error, unexpected 'km' (T_STRING) in /home/ubuntu/workspace/curs13-PHP-OOP/_tema/Googlecar.php on line 16
+[12-Feb-2017 16:56:02 UTC] PHP Parse error:  syntax error, unexpected 'km' (T_STRING) in /home/ubuntu/workspace/curs13-PHP-OOP/_tema/Googlecar.php on line 16
+[12-Feb-2017 16:56:02 UTC] PHP Stack trace:
+[12-Feb-2017 16:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/curs13-PHP-OOP/_tema/index.php:0

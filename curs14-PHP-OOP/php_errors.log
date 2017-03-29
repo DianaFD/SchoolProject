@@ -1,0 +1,9 @@
+[08-Feb-2017 19:07:32 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/curs14-PHP-OOP/workshop/Articles.php on line 50
+[08-Feb-2017 19:07:32 UTC] PHP Stack trace:
+[08-Feb-2017 19:07:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/curs14-PHP-OOP/workshop/index.php:0
+[08-Feb-2017 19:07:55 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/curs14-PHP-OOP/workshop/Articles.php on line 50
+[08-Feb-2017 19:07:55 UTC] PHP Stack trace:
+[08-Feb-2017 19:07:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/curs14-PHP-OOP/workshop/index.php:0
+[08-Feb-2017 19:10:34 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/curs14-PHP-OOP/workshop/Articles.php on line 42
+[08-Feb-2017 19:10:34 UTC] PHP Stack trace:
+[08-Feb-2017 19:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/curs14-PHP-OOP/workshop/form.php:0

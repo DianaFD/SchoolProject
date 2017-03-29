@@ -1,0 +1,23 @@
+.row:before,
+.row:after {
+ content: " ";
+ display: table;
+}
+.row:after {
+    clear: both;
+}
+.column {
+    float: left;
+    /*border-radius:10%;*/
+}
+.col-1 {
+    width:30;
+    background-color:red;
+}
+.col-2 {
+    width:70%;
+    background-color:green;
+}
+.containier {
+    background-color:blue;
+}
