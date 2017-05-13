@@ -37,7 +37,7 @@ require_once "DB.php";
 
 class UsersModel extends DB {
     function checkUser($email, $pass) {
-        $sql = 'SELECT  first_name, last_name, email FROM users WHERE email=? AND password=?';
+        $sql = 'select  first_name, last_name, email from users where email=? and password=?';
 
         $stmt = $this->dbh->prepare($sql);
         $stmt->execute(array($mail, 

@@ -1,3 +1,5 @@
+/* global $ */
+
 function Login(options) {
     this.email = options.email;
     this.pass = options.pass;
@@ -20,7 +22,7 @@ Login.prototype.signIn = function(){
     // req.send(strUserData);
     var that = this;
     var config = {
-        url: "https://web9-didisuperapple..c9users.io/curs21-PHP-API/login",
+        url: "https://web9-didisuperapple..c9users.io/Blog/api/models/login",
         method: "POST",
         data:{
             email:this.email,

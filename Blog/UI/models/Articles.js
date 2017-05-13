@@ -26,7 +26,7 @@ function Articles(){
        
        var that = this;
        var config={
-           url:"https://web9-didisuperapple.c9users.io/curs21-PHP-API/articles",
+           url:"https://web9-didisuperapple.c9users.io/Blog/api/controlers/Articles",
            method: "GET",
            success: function(resp) {
              for (var i=0; i<resp.length; i++) {
@@ -65,7 +65,7 @@ function Articles(){
             formData.append("category", "1");
         
         var config = {    
-            url:"https:web9-didisuperapple.c9users.io/curs21-PHP-API/articles/add",
+            url:"https://web9-didisuperapple.c9users.io/api/article/add",
             method: "POST",
             data: formData, 
             processData:false, 

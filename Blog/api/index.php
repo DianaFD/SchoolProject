@@ -28,6 +28,7 @@
                     if ($data) {
                         $_POST = $data;
                     }
+                    
                 break;
                 case "PUT":
                 case "DELETE":

@@ -40,7 +40,7 @@ function onHtmlLoaded() {
 			var articleElem = $("<li data-value="+articles.models[i].id+"></li>");
 			articleElem.html(articles.models[i].title)
 			if (articles.models[i].main_image_url) {
-				articleElem.appent($("<img src='../../../curs21-PHP-API/uploads" + articles.models[i].main_image_url + "'>"))
+				articleElem.appent($("<img src='../../../api/main_iamge_url" + articles.models[i].main_image_url + "'>"))
 			}
 			articleElem.on("click", goToArticlePage);
 			container.append(articleElem);
