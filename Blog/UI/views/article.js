@@ -12,7 +12,7 @@ var article=articles.dindArticleById(currentArticleId);
 var containerElement=$("#container");
 
 generateArticleTitle(article.title);
-generateArticleContent(article.content);//generez continultul parametrului
+generateArticleContent(article.content);//generez continutul parametrului
 
 //generates a h2 element, adds the title and append the element to the container
 function generateArticleTitle(articleTitle){
@@ -33,9 +33,11 @@ function generateArticleContent(articleContent){
 //untill function, will return the url param for the provided key
 function getUrlParam(name){
     var results= new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
-    if (results==null){
+    if (results==null) {
         return null;
     }
     else {
         return results[1] || 0;
     }
+    
+    

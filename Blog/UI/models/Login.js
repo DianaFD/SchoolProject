@@ -20,7 +20,7 @@ Login.prototype.signIn = function(){
     // req.send(strUserData);
     var that = this;
     var config = {
-        url: "https://web9-siitwebcluj.c9users.io/curs21-PHP-API/login",
+        url: "https://web9-didisuperapple..c9users.io/curs21-PHP-API/login",
         method: "POST",
         data:{
             email:this.email,

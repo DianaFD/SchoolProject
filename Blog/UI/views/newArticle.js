@@ -1,3 +1,5 @@
+/* global $*/
+/* global Articles*/
 $(document).ready(onHtmlLoaded);
 function onHtmlLoaded() {
     $("#save_article").on("click", function(){
@@ -15,6 +17,6 @@ function onHtmlLoaded() {
     });
     
     function redirectUserToArticlesPage() {
-        window.location.href = "https://web9-siitwebcluj.c9users.io/blog/UI/pages/articles.html"
+        window.location.href = "https://web9-didisuperapple.c9users.io/Blog/UI/pages/article.html"
     }
 }   

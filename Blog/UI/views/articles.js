@@ -50,5 +50,5 @@ function onHtmlLoaded() {
 
 function goToArticlePage() {
 	var currentArticleId = $(this).attr("data-value");
-	window.location.href = "https://web9-siitwebcluj.c9users.io/blog/UI/pages/article.html?id="+currentArticleId;
+	window.location.href = "https://web9-didisuperapple.c9users.io/blog/UI/pages/article.html?id="+currentArticleId;
 }

@@ -1,0 +1,128 @@
+[33mcommit 6869c86d0c4ef8940aec41246804715b2cdb1536[m
+Author: Diana D <dianafdaroczi@gmail.com>
+Date:   Wed Mar 29 16:21:01 2017 +0000
+
+    added a test line in Article.js
+
+
+[33mcommit 7ba881390dba5e5fb54569e65b80663590eed307[m
+Author: Diana D <dianafdaroczi@gmail.com>
+Date:   Wed Mar 29 15:57:31 2017 +0000
+
+    first commit
+
+ create mode 100644 Blog/UI/models/Article.js
+ create mode 100644 Blog/UI/models/Articles.js
+ create mode 100644 Blog/UI/models/Login.js
+ create mode 100644 Blog/UI/pages/addarticle.html
+ create mode 100644 Blog/UI/pages/article.html
+ create mode 100644 Blog/UI/pages/articles.html
+ create mode 100644 Blog/UI/pages/login.html
+ create mode 100644 Blog/UI/pages/newArticle.html
+ create mode 100644 Blog/UI/views/addArticle.js
+ create mode 100644 Blog/UI/views/article.js
+ create mode 100644 Blog/UI/views/articles.js
+ create mode 100644 Blog/UI/views/login.js
+ create mode 100644 Blog/UI/views/newArticle.js
+ create mode 100644 Blog/index.html
+ create mode 100644 Blog/style.css
+ create mode 100644 Bootstrap/index.html
+ create mode 100644 Bootstrap/style.css
+ create mode 100644 Calculator/js/index.html
+ create mode 100644 Calculator/js/script.js
+ create mode 100644 Curs 1/index.html
+ create mode 100644 Curs 3 - CSS - Grid System/index.html
+ create mode 100644 Curs 3 - CSS - Grid System/style.css
+ create mode 100644 Curs 4 - Intro to JS/index.html
+ create mode 100644 Curs 4 - Intro to JS/js/script.js
+ create mode 100644 Curs 5 - JS Objects/index.html
+ create mode 100644 Curs 5 - JS Objects/js/index.html
+ create mode 100644 Curs 5 - JS Objects/js/script.js
+ create mode 100644 Curs10TableExercise/_tema/arrays.php
+ create mode 100644 Curs10TableExercise/array.php
+ create mode 100644 Curs10TableExercise/index.php
+ create mode 100644 Curs10TableExercise/php_errors.log
+ create mode 100644 Curs11-PHP-Intro/download.php
+ create mode 100644 Curs11-PHP-Intro/forms.php
+ create mode 100644 Curs11-PHP-Intro/formsData.php
+ create mode 100644 Curs11-PHP-Intro/play.php
+ create mode 100644 Curs11-PHP-Intro/uploads/1020.jpg
+ create mode 100644 Curs11-PHP-Intro/uploads/tumblr_o6r1mwhtOv1tdmwb4o1_540.jpg
+ create mode 100644 Curs11-PHP-Intro/users.php
+ create mode 100644 Curs12-PHP-Session/admin.php
+ create mode 100644 Curs12-PHP-Session/create.php
+ create mode 100644 Curs12-PHP-Session/include/config.php
+ create mode 100644 Curs12-PHP-Session/index.php
+ create mode 100644 Curs12-PHP-Session/login.php
+ create mode 100644 Curs12-PHP-Session/users.txt
+ create mode 100644 Curs17-PHP-PDO/config.php
+ create mode 100644 Curs17-PHP-PDO/db.php
+ create mode 100644 Curs17-PHP-PDO/index.php
+ create mode 100644 Curs18-PHP-PDO/admin.php
+ create mode 100644 Curs18-PHP-PDO/config.php
+ create mode 100644 Curs18-PHP-PDO/database/blog.sql
+ create mode 100644 Curs18-PHP-PDO/db.php
+ create mode 100644 Curs18-PHP-PDO/global.php
+ create mode 100644 Curs18-PHP-PDO/index.php
+ create mode 100644 Curs18-PHP-PDO/login.php
+ create mode 100644 Curs18-PHP-PDO/models/user.php
+ create mode 100644 Curs18-PHP-PDO/signup.php
+ create mode 100644 Curs19-PHP-API/app/configs/config.php
+ create mode 100644 Curs19-PHP-API/app/models/Articles.php
+ create mode 100644 Curs19-PHP-API/app/models/Comments.php
+ create mode 100644 Curs19-PHP-API/app/models/DB.php
+ create mode 100644 Curs19-PHP-API/index.php
+ create mode 100644 Curs19-PHP-API/play.php
+ create mode 100644 Curs8-OOP/index.html
+ create mode 100644 Curs8-OOP/js/script.js
+ create mode 100644 Curs9-PHP-Intro/index.php
+ create mode 100644 HW - DOM Manipulation-Step 1/css/style.css
+ create mode 100644 HW - DOM Manipulation-Step 1/index.html
+ create mode 100644 HW - DOM Manipulation-Step 1/js/script.js
+ create mode 100644 README.md
+ create mode 100644 Testing/index.html
+ create mode 100644 curs13-PHP-OOP/_tema/Googlecar.php
+ create mode 100644 curs13-PHP-OOP/_tema/index.php
+ create mode 100644 curs13-PHP-OOP/index.php
+ create mode 100644 curs13-PHP-OOP/php_errors.log
+ create mode 100644 curs14-PHP-OOP/Animal.php
+ create mode 100644 curs14-PHP-OOP/Human.php
+ create mode 100644 curs14-PHP-OOP/Life.php
+ create mode 100644 curs14-PHP-OOP/index.php
+ create mode 100644 curs14-PHP-OOP/php_errors.log
+ create mode 100644 curs14-PHP-OOP/workshop/Articles.php
+ create mode 100644 curs14-PHP-OOP/workshop/articles.txt
+ create mode 100644 curs14-PHP-OOP/workshop/form.php
+ create mode 100644 curs14-PHP-OOP/workshop/index.php
+ create mode 100644 curs20-REGEX/index.php
+ create mode 100644 curs21-PHP-API/.htaccess
+ create mode 100644 curs21-PHP-API/app/configs/config.php
+ create mode 100644 curs21-PHP-API/app/configs/routes.php
+ create mode 100644 curs21-PHP-API/app/controllers/Account.php
+ create mode 100644 curs21-PHP-API/app/controllers/Articles.php
+ create mode 100644 curs21-PHP-API/app/controllers/Comments.php
+ create mode 100644 curs21-PHP-API/app/controllers/LogIn.php
+ create mode 100644 curs21-PHP-API/app/models/ArticlesModel.php
+ create mode 100644 curs21-PHP-API/app/models/CommentsModel.php
+ create mode 100644 curs21-PHP-API/app/models/DB.php
+ create mode 100644 curs21-PHP-API/app/models/UsersModel.php
+ create mode 100644 curs21-PHP-API/app/models/usersModels.php
+ create mode 100644 curs21-PHP-API/index.php
+ create mode 100644 curs21-PHP-API/php_errors.log
+ create mode 100644 curs22-XMLHttpReq/index.html
+ create mode 100644 curs22-XMLHttpReq/js/script.js
+ create mode 100644 curs23-Ajax/index.html
+ create mode 100644 curs23-Ajax/js/script.js
+ create mode 100644 curs6-DOM-manipulation/css/style.css
+ create mode 100644 curs6-DOM-manipulation/index.html
+ create mode 100644 curs6-DOM-manipulation/js/script.js
+ create mode 100644 curs7-jQuery/css/style.css
+ create mode 100644 curs7-jQuery/css/tooltip.css
+ create mode 100644 curs7-jQuery/images/information-icon.png
+ create mode 100644 curs7-jQuery/index.html
+ create mode 100644 curs7-jQuery/js/script.js
+ create mode 100644 curs7-jQuery/js/tooltip.js
+ create mode 100644 curs7-jQuery/tooltip.html
+ create mode 100644 hello-world.php
+ create mode 100644 php.ini
+ create mode 100644 php_errors.log
